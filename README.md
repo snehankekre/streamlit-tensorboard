@@ -1,4 +1,4 @@
-# streamlit-letsplot
+# streamlit-tensorboard
 
 This is a work-in-progress, providing a function to embed [TensorBoard](https://www.tensorflow.org/tensorboard), TensorFlow's visualization toolkit, in Streamlit apps.
 
