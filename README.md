@@ -32,8 +32,8 @@ model.compile(
     optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"]
 )
 
-log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
+logdir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=1)
 
 model.fit(
     x=x_train,
@@ -44,7 +44,7 @@ model.fit(
 )
 
 # Start TensorBoard
-st_tensorboard(logdir=log_dir, port=6006, width=1080)
+st_tensorboard(logdir=logdir, port=6006, width=1080)
 ```
 
 ![st_tensorboard](https://github.com/snehankekre/streamlit-tensorboard/blob/master/_static/st-tensorboard-example.png)
