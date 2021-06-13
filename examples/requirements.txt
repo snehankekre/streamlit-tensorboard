@@ -1,0 +1,2 @@
+streamlit_tensorboard==0.0.1
+streamlit==0.82.0
