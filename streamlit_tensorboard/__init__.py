@@ -27,7 +27,7 @@ def st_tensorboard(logdir="/logs/", port=6006, width=None, height=800, scrolling
 
     Example
     -------
-    >>> st_tensorboard()
+    >>> st_tensorboard(logdir="/logs/", port=6006, width=1080)
     """
 
     logdir = logdir
