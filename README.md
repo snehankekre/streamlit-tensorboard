@@ -2,6 +2,10 @@
 
 This is a work-in-progress, providing a function to embed [TensorBoard](https://www.tensorflow.org/tensorboard), TensorFlow's visualization toolkit, in Streamlit apps.
 
+## Installation
+
+`pip install streamlit-tensorboard`
+
 ## Example usage
 
 ```python
