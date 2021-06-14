@@ -4,7 +4,7 @@ This is a work-in-progress, providing a function to embed [TensorBoard](https://
 
 ## Installation :balloon:
 
-`pip install streamlit-tensorboard`
+`pip install --upgrade streamlit-tensorboard`
 
 ## Example Usage :computer:
 
