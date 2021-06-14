@@ -1,2 +1,2 @@
-streamlit_tensorboard==0.0.2
+streamlit-tensorboard==0.0.2
 streamlit==0.82.0
