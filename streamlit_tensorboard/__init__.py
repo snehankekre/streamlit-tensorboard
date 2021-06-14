@@ -54,7 +54,12 @@ def st_tensorboard(logdir="/logs/", port=6006, width=None, height=800, scrolling
 
     args_string = f"--logdir {logdir} --port {port}"
     parsed_args = shlex.split(args_string, comments=True, posix=True)
-    manager.start(parsed_args)
+    start_result = manager.start(parsed_args)
+
+    if isinstance(start_result, manager.StartReused):
+        port = start_result.info.port
+        print(f"Reusing TensorBoard on port {port}")
+
     proxy_url = "http://localhost:%PORT%"
 
     proxy_url = proxy_url.replace("%PORT%", "%d" % port)
