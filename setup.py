@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="streamlit-tensorboard",
-    version="0.0.1",
+    version="0.0.2",
     author="Snehan Kekre",
     author_email="snehan@streamlit.io",
     description="Streamlit component for TensorBoard",

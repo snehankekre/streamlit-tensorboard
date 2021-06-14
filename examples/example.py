@@ -19,10 +19,11 @@ st.sidebar.code('$ pip install streamlit-tensorboard')
 st.sidebar.markdown('Import convention')
 st.sidebar.code('from streamlit_tensorboard import st_tensorboard')
 
-logdir = "logs/fit/"
+logdir = "/app/streamlit-tensorboard/examples/logs/fit/"
 port = 6006
 
 st_tensorboard(logdir=logdir, port=port, width=1080)
+
 
 st.code(
     """
