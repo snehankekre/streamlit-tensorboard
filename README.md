@@ -1,5 +1,7 @@
 # streamlit-tensorboard
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://donttouchyourface.ai:8501/)
+
 This is a work-in-progress, providing a function to embed [TensorBoard](https://www.tensorflow.org/tensorboard), TensorFlow's visualization toolkit, in Streamlit apps.
 
 ## Installation :balloon:
