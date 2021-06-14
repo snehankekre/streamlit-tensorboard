@@ -2,11 +2,11 @@
 
 This is a work-in-progress, providing a function to embed [TensorBoard](https://www.tensorflow.org/tensorboard), TensorFlow's visualization toolkit, in Streamlit apps.
 
-## Installation
+## Installation :balloon:
 
 `pip install streamlit-tensorboard`
 
-## Example usage
+## Example Usage :computer:
 
 ```python
 import streamlit as st
@@ -52,3 +52,16 @@ st_tensorboard(logdir=logdir, port=6006, width=1080)
 ```
 
 ![st_tensorboard](https://github.com/snehankekre/streamlit-tensorboard/blob/master/_static/st-tensorboard-example.png)
+
+
+## Contributing :hammer_and_wrench:
+
+Please file a new [GitHub issue](https://github.com/snehankekre/streamlit-tensorboard/issues) (if one doesn't already exist) for bugs, feature requests, suggestions for improvements, etc. If you have solutions to any [open issues](https://github.com/snehankekre/streamlit-tensorboard/issues), feel free to open a [Pull Request](https://github.com/snehankekre/streamlit-tensorboard/pulls)!
+
+## Supported Platforms
+
+1. Ubuntu
+2. Debian GNU/Linux
+3. macOS (⚠️ unverified)
+
+Windows is currently not supported. PRs for added Windows support are welcome as fix to this [issue](https://github.com/snehankekre/streamlit-tensorboard/issues/6).
