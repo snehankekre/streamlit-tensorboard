@@ -5,6 +5,7 @@ import shlex
 import random
 import html
 import json
+from pathlib import Path
 
 
 def st_tensorboard(logdir="/logs/", port=6006, width=None, height=800, scrolling=True):
@@ -30,7 +31,7 @@ def st_tensorboard(logdir="/logs/", port=6006, width=None, height=800, scrolling
     >>> st_tensorboard(logdir="/logs/", port=6006, width=1080)
     """
 
-    logdir = logdir
+    logdir = Path(str(logdir)).as_posix()
     port = port
     width = width
     height = height
