@@ -66,4 +66,4 @@ Please file a new [GitHub issue](https://github.com/snehankekre/streamlit-tensor
 2. Debian GNU/Linux
 3. macOS (⚠️ unverified)
 
-This component will not work on Streamlit Cloud. Due to security reasons, Streamlit Cloud does not allow users expose ports (as required by streamlit-tensorboard). 
+This component will not work on [Streamlit Cloud](https://share.streamlit.io/). Due to security reasons, Streamlit Cloud does not allow users expose ports (as required by streamlit-tensorboard). 
